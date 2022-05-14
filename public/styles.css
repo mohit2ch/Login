@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-color: cornflowerblue;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 400px;
+    width: 25%;
+    min-width: 300px;
+    border: solid white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 5px white;
+}
+form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 80%;
+    height: 50px;
+    border-bottom: solid;
+    text-align: center;
+    margin: 10px;
+    background: inherit;
+    color: white;
+    transition: 300ms;
+    
+}
+input::placeholder{
+    text-align: center;
+    color: aquamarine;
+}
+input:focus{
+    outline: none;
+    font-size: 1.1rem;
+    box-shadow:0 0 3px white;
+}
+
+.btn{
+    margin: 40px;
+    height: 50px;
+    width: 80%;
+    border-radius: 10px;
+    border: 4px white solid;
+    background: inherit;
+    color:white;
+    font-weight: 700;
+    font-size: 1.1rem;
+    transition: 200ms;
+}
+.btn:hover{
+    color: black;
+    background-color: white;
+    box-shadow: 0 0 10px white;
+}
+#signup{
+    color: white;
+    font-size: 0.9rem;
+    text-decoration: underline;
+    border: none;
+    background-color: inherit;
+}
+#signup:hover{
+    cursor: pointer;
+    color: initial;
+    background-color: inherit;
+
+}
+.box{
+    height: 500px;
+    width: 600px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    color: cornflowerblue;
+    flex-direction: column;
+}
